@@ -1,4 +1,5 @@
 import '../styles/Main.css';
+import Project from './Project';
 
 function Main() {
   return (
@@ -16,6 +17,7 @@ function Main() {
       <h2 className="title" id="Projects">
         Projects
       </h2>
+      <Project />
     </div>
   );
 }

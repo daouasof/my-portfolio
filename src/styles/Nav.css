@@ -5,6 +5,7 @@ ul {
 .nav {
   padding-left: 20px;
   padding-top: 15px;
+  border-top-left-radius: 5px;
   border-top: solid 1px var(--strong1);
   border-left: solid 1px var(--strong1);
 }

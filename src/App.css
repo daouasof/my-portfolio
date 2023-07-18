@@ -1,38 +1,38 @@
+@font-face {
+  font-family: 'PilcrowRounded-Semibold';
+  src: url('./styles/fonts/PilcrowRounded-Semibold.woff') format('woff');
+  font-weight: 400 900;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Hind-Regular';
+  src: url('./styles/fonts/Hind-Regular.woff') format('woff');
+  font-weight: 400;
+  font-display: swap;
+  font-style: normal;
+}
+
 .App {
-  text-align: center;
+  margin: 100px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+:root {
+  --strong1: #f6a28e;
+  --strong2: #38305c;
+  --light1: #ffffff;
+  --light2: #ecd1ca;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body {
+  color: var(--light2);
+  background-color: #38305c;
+  font-family: 'Hind-Regular';
+  letter-spacing: 0.03em;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h1,
+h2 {
+  color: var(--light1);
+  font-family: 'PilcrowRounded-Semibold';
 }

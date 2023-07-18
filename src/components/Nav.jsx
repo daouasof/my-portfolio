@@ -5,8 +5,8 @@ function Nav() {
   return (
     <ul className="nav">
       {options.map((option, index) => (
-        <li key={`%{option}%{index}`}>
-          <a href="/">{option}</a>
+        <li key={`${option}${index}`}>
+          <a href={`#${option}`}>{option}</a>
         </li>
       ))}
     </ul>

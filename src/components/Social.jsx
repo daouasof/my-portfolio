@@ -5,7 +5,7 @@ function Social() {
     <ul>
       <li>
         <a href="https://github.com/daouasof" target="_blank" rel="noreferrer">
-          <i class="fa-brands fa-github"></i>
+          <i className="fa-brands fa-github"></i>
         </a>
       </li>
       <li>
@@ -14,7 +14,7 @@ function Social() {
           target="_blank"
           rel="noreferrer"
         >
-          <i class="fa-brands fa-linkedin"></i>
+          <i className="fa-brands fa-linkedin"></i>
         </a>
       </li>
     </ul>

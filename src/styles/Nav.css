@@ -8,10 +8,18 @@ ul {
   border-top-left-radius: 5px;
   border-top: solid 1px var(--strong1);
   border-left: solid 1px var(--strong1);
+  margin-top: 30px;
+}
+
+.nav li {
+  margin-bottom: 10px;
+  cursor: pointer;
+  width: fit-content;
 }
 
 .nav .active {
-  color: blue;
+  border-bottom: 1px solid var(--strong1);
+  font-style: italic;
 }
 
 a {

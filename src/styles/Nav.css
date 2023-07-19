@@ -10,6 +10,10 @@ ul {
   border-left: solid 1px var(--strong1);
 }
 
+.nav .active {
+  color: blue;
+}
+
 a {
   color: var(--light1);
   text-decoration: none;

@@ -1,5 +1,5 @@
 .header-container {
-  width: 30%;
+  min-width: 25%;
   height: fit-content;
   margin-right: 100px;
   position: sticky;

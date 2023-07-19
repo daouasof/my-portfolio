@@ -26,7 +26,7 @@ function Main() {
         </h2>
         <Project
           name="Frontrow"
-          description="Here is the project's description"
+          description="A social platform where fans can log concerts they've seen by rating and reviewing their experience, follow other fans and interact with them. FrontRow is the final project for Le Wagon's web development bootcamp."
           link="https://www.front-row.site"
           cover={Frontrow}
           stack={[
@@ -36,7 +36,7 @@ function Main() {
         />
         <Project
           name="Pawch"
-          description="Here is the project's description"
+          description="A web app that allows users to browse pet outfits, rent them, and post their own outfits to rent. Pawsh is an Airbnb clone and one of two final projects for Le Wagon's web development bootcamp."
           link="https://pawsh.herokuapp.com/"
           cover={Pawch}
           stack={[

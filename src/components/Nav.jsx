@@ -1,4 +1,5 @@
 import '../styles/Nav.css';
+import { Link } from 'react-scroll';
 
 function Nav() {
   const options = ['About', 'Projects', 'Contact'];
@@ -6,7 +7,15 @@ function Nav() {
     <ul className="nav">
       {options.map((option, index) => (
         <li key={`${option}${index}`}>
-          <a href={`#${option}`}>{option}</a>
+          <Link
+            to={`${option}`}
+            spy={true}
+            smooth={true}
+            offset={-50}
+            duration={500}
+          >
+            {option}
+          </Link>
         </li>
       ))}
     </ul>

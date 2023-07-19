@@ -8,7 +8,7 @@ function Project({ name, description, link, cover, stack }) {
         <h2>
           {name}
           <span>
-            <i class="fa-solid fa-link"></i>
+            <i className="fa-solid fa-link"></i>
           </span>
         </h2>
         <p>{description}</p>

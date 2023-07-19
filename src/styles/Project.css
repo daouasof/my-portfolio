@@ -48,4 +48,9 @@ span {
   font-size: medium;
   color: var(--strong1);
   display: none;
+  padding-left: 5px;
+}
+
+a p {
+  color: var(--light2);
 }

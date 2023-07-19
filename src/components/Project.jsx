@@ -1,29 +1,17 @@
 import '../styles/Project.css';
-import Frontrow from '../assets/images/Frontrow.png';
-import Rails from '../assets/images/Rails.svg';
-import PostgreSQL from '../assets/images/PostgreSQL.svg';
 
-function Project() {
-  const stack = [
-    { name: 'Rails', source: Rails },
-    { name: 'postgreSQL', source: PostgreSQL },
-  ];
-  const link = 'https://www.front-row.site';
-
+function Project({ name, description, link, cover, stack }) {
   return (
     <a href={link} target="_blank" rel="noreferrer" className="project">
-      <img src={Frontrow} className="project_image" alt="" />
+      <img src={cover} className="project_image" alt="" />
       <div>
         <h2>
-          Frontrow{' '}
+          {name}
           <span>
             <i class="fa-solid fa-link"></i>
           </span>
         </h2>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt{' '}
-        </p>
+        <p>{description}</p>
         <ul className="stack_list">
           {stack.map((element, index) => (
             <li key={`${index}${element.name}`}>

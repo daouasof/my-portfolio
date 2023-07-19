@@ -1,5 +1,8 @@
 import '../styles/Main.css';
 import Project from './Project';
+import Frontrow from '../assets/images/Frontrow.png';
+import Rails from '../assets/images/Rails.svg';
+import PostgreSQL from '../assets/images/PostgreSQL.svg';
 
 function Main() {
   return (
@@ -20,7 +23,16 @@ function Main() {
         <h2 className="title" id="Projects">
           Projects
         </h2>
-        <Project />
+        <Project
+          name="Frontrow"
+          description="Here is the project's description"
+          link="https://www.front-row.site"
+          cover={Frontrow}
+          stack={[
+            { stackname: 'Rails', source: Rails },
+            { stackname: 'postgreSQL', source: PostgreSQL },
+          ]}
+        />
       </div>
     </div>
   );

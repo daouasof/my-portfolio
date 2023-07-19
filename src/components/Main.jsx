@@ -1,6 +1,7 @@
 import '../styles/Main.css';
 import Project from './Project';
 import Frontrow from '../assets/images/Frontrow.png';
+import Pawch from '../assets/images/Pawch.png';
 import Rails from '../assets/images/Rails.svg';
 import PostgreSQL from '../assets/images/PostgreSQL.svg';
 
@@ -28,6 +29,16 @@ function Main() {
           description="Here is the project's description"
           link="https://www.front-row.site"
           cover={Frontrow}
+          stack={[
+            { stackname: 'Rails', source: Rails },
+            { stackname: 'postgreSQL', source: PostgreSQL },
+          ]}
+        />
+        <Project
+          name="Pawch"
+          description="Here is the project's description"
+          link="https://pawsh.herokuapp.com/"
+          cover={Pawch}
           stack={[
             { stackname: 'Rails', source: Rails },
             { stackname: 'postgreSQL', source: PostgreSQL },

@@ -8,10 +8,8 @@ import PostgreSQL from '../assets/images/PostgreSQL.svg';
 function Main() {
   return (
     <div>
-      <div className="section">
-        <h2 className="title" id="About">
-          About me
-        </h2>
+      <div className="section" id="About">
+        <h2 className="title">About me</h2>
         <p>
           I am passionate about digital projects with a social impact. For
           several years, I have worked as a Product Owner on softwares aimed at
@@ -20,10 +18,8 @@ function Main() {
           includes Ruby on Rails, Javascript, React.JS, HTML and CSS.
         </p>
       </div>
-      <div className="section">
-        <h2 className="title" id="Projects">
-          Projects
-        </h2>
+      <div className="section" id="Projects">
+        <h2 className="title">Projects</h2>
         <Project
           name="Frontrow"
           description="A social platform where fans can log concerts they've seen by rating and reviewing their experience, follow other fans and interact with them. FrontRow is the final project for Le Wagon's web development bootcamp."
@@ -44,6 +40,19 @@ function Main() {
             { stackname: 'postgreSQL', source: PostgreSQL },
           ]}
         />
+      </div>
+      <div className="section" id="Contact">
+        <h2 className="title">Contact</h2>
+        <p>
+          Want to work with me ? Contact me on my{' '}
+          <a
+            href="https://www.linkedin.com/in/sofia-daouadji/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            LinkedIn
+          </a>{' '}
+        </p>
       </div>
     </div>
   );

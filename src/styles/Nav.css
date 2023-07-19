@@ -18,3 +18,7 @@ a {
   color: var(--light1);
   text-decoration: none;
 }
+
+#Contact a:hover {
+  color: var(--strong1);
+}

@@ -11,14 +11,19 @@ function Project() {
 
   return (
     <div className="project">
-      <img src={Frontrow} alt="" />
+      <img src={Frontrow} className="project_image" alt="" />
       <div>
-        <h2>Frontrow</h2>
+        <h2>
+          Frontrow{' '}
+          <span>
+            <i class="fa-solid fa-link"></i>
+          </span>
+        </h2>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt{' '}
         </p>
-        <ul className="stack">
+        <ul className="stack_list">
           {stack.map((element, index) => (
             <li key={`${index}${element.name}`}>
               <img src={element.source} alt={element.name} />

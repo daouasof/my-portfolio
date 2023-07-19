@@ -1,18 +1,51 @@
 .project {
   display: flex;
   align-items: start;
+  padding: 10px;
+  border-radius: 5px;
+  transition: ease;
+}
+
+.project:hover {
+  /* background-color: (rgba(var(--strong1), 0.5)); */
+  background-color: rgb(68, 58, 108);
+  border: 1px solid rgb(70, 60, 110);
+}
+
+.project:hover .project_image {
+  box-shadow: 0 0 5px rgba(255, 255, 255, 0.7);
+}
+
+.project:hover span {
+  display: inline;
 }
 
 .project h2 {
   margin-top: 0px;
 }
 
-img {
+.project_image {
   width: 200px;
   border-radius: 3px;
   object-fit: cover;
-  margin-right: 10px;
-  /* box-shadow: 0 0 10px rgb(var(--light1)); */
-  /* box-shadow: 0 0 10px calc(rgba(var(--light1), 1)); */
-  /* box-shadow: 0 0 10px var(--light1); */
+  margin-right: 15px;
+  box-shadow: 0 0 2px rgba(255, 255, 255, 0.7);
+}
+
+.stack_list {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+.stack_list img {
+  max-height: 50px;
+}
+
+span {
+  font-size: medium;
+  color: var(--strong1);
+  display: none;
 }

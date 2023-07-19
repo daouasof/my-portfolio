@@ -5,3 +5,7 @@
   border-top: solid 1px var(--strong1);
   border-left: solid 1px var(--strong1);
 }
+
+.section {
+  margin-bottom: 50px;
+}

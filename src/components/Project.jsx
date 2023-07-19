@@ -8,9 +8,10 @@ function Project() {
     { name: 'Rails', source: Rails },
     { name: 'postgreSQL', source: PostgreSQL },
   ];
+  const link = 'https://www.front-row.site';
 
   return (
-    <div className="project">
+    <a href={link} target="_blank" rel="noreferrer" className="project">
       <img src={Frontrow} className="project_image" alt="" />
       <div>
         <h2>
@@ -31,7 +32,7 @@ function Project() {
           ))}
         </ul>
       </div>
-    </div>
+    </a>
   );
 }
 

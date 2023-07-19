@@ -1,4 +1,7 @@
 .header-container {
   width: 30%;
+  height: fit-content;
   margin-right: 100px;
+  position: sticky;
+  top: 100px;
 }

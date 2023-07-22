@@ -1,8 +1,10 @@
 import '../styles/Main.css';
 import Project from './Project';
 import Frontrow from '../assets/images/Frontrow.png';
+import Jungle from '../assets/images/La-maison-jungle.png';
 import Pawch from '../assets/images/Pawch.png';
 import Rails from '../assets/images/Rails.svg';
+import React from '../assets/images/React.svg';
 import PostgreSQL from '../assets/images/PostgreSQL.svg';
 
 function Main() {
@@ -29,6 +31,13 @@ function Main() {
             { stackname: 'Rails', source: Rails },
             { stackname: 'postgreSQL', source: PostgreSQL },
           ]}
+        />
+        <Project
+          name="La Maison Jungle"
+          description="Fictional plant store website created with react"
+          link="https://daouasof.github.io/la-maison-jungle/"
+          cover={Jungle}
+          stack={[{ stackname: 'React', source: React }]}
         />
         <Project
           name="Pawch"

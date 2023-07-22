@@ -1,11 +1,14 @@
 ul {
   list-style: none;
   padding-left: 0px;
+}
+
+.social-list {
   display: flex;
   flex-direction: column;
 }
 @media only screen and (max-width: 1024px) {
-  ul {
+  .social-list {
     flex-direction: row;
     gap: 15px;
     justify-content: flex-end;

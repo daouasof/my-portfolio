@@ -6,6 +6,12 @@
   transition: ease;
   margin-bottom: 10px;
 }
+@media only screen and (max-width: 767px) {
+  .project {
+    display: flex;
+    flex-direction: column;
+  }
+}
 
 .project:hover {
   /* background-color: (rgba(var(--strong1), 0.5)); */

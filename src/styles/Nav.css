@@ -9,6 +9,15 @@ ul {
   border-top: solid 1px var(--strong1);
   border-left: solid 1px var(--strong1);
   margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+}
+@media only screen and (max-width: 1024px) {
+  .nav {
+    flex-direction: row;
+    gap: 10px;
+    margin-bottom: 0px;
+  }
 }
 
 .nav li {

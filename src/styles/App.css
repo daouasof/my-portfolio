@@ -17,7 +17,11 @@
   margin: 100px;
   display: flex;
 }
-
+@media only screen and (max-width: 1024px) {
+  .App {
+    flex-direction: column;
+  }
+}
 :root {
   --strong1: rgb(246, 162, 142);
   --strong2: rgb(56, 48, 92);

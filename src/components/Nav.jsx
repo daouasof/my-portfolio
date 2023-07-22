@@ -14,7 +14,7 @@ function Nav() {
           duration={500}
           activeClass="active"
         >
-          About me
+          About
         </Link>
       </li>
       {options.map((option, index) => (

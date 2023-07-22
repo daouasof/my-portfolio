@@ -7,8 +7,10 @@ function Header() {
   return (
     <div className="header-container">
       <Presentation />
-      <Nav />
-      <Social />
+      <div>
+        <Nav />
+        <Social />
+      </div>
     </div>
   );
 }

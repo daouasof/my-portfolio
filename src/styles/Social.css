@@ -1,4 +1,14 @@
 ul {
   list-style: none;
   padding-left: 0px;
+  display: flex;
+  flex-direction: column;
+}
+@media only screen and (max-width: 1024px) {
+  ul {
+    flex-direction: row;
+    gap: 15px;
+    justify-content: flex-end;
+    margin-top: 0;
+  }
 }

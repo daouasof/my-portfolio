@@ -19,7 +19,7 @@ ul {
     top: 0;
     right: 20px;
     background-color: var(--strong2);
-    width: 90%;
+    width: 100%;
     display: flex;
     justify-content: flex-end;
     padding-bottom: 10px;

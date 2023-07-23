@@ -34,7 +34,7 @@ function Main() {
         />
         <Project
           name="La Maison Jungle"
-          description="Fictional plant store website created with react"
+          description="Fictional plant store website created with React"
           link="https://daouasof.github.io/la-maison-jungle/"
           cover={Jungle}
           stack={[{ stackname: 'React', source: React }]}

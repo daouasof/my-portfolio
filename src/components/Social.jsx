@@ -2,7 +2,7 @@ import '../styles/Social.css';
 
 function Social() {
   return (
-    <ul>
+    <ul className='social-list'>
       <li>
         <a href="https://github.com/daouasof" target="_blank" rel="noreferrer">
           <i className="fa-brands fa-github"></i>

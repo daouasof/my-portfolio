@@ -18,6 +18,9 @@ ul {
     gap: 10px;
     margin-bottom: 0px;
     margin-top: 15px;
+    position: fixed;
+    top: 0;
+    right: 20px;
   }
 }
 

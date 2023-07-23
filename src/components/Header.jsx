@@ -6,11 +6,11 @@ import Social from './Social';
 function Header() {
   return (
     <div className="header-container">
-      <Presentation />
-      <div>
+      <div className="header-sub-container">
+        <Presentation />
         <Nav />
-        <Social />
       </div>
+      <Social />
     </div>
   );
 }

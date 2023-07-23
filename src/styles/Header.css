@@ -2,16 +2,21 @@
   min-width: 25%;
   height: fit-content;
   margin-right: 100px;
-  position: sticky;
-  top: 100px;
+  /* position: sticky; */
+  /* top: 100px; */
+}
+
+/* .header-sub-container {
   display: flex;
   flex-direction: column;
-}
+} */
 
 @media only screen and (max-width: 1024px) {
   .header-container {
     flex-direction: row;
     justify-content: space-between;
     margin-right: 0;
+    /* position: fixed;
+    top: 0; */
   }
 }

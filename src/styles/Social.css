@@ -11,7 +11,6 @@ ul {
   .social-list {
     flex-direction: row;
     gap: 15px;
-    justify-content: flex-end;
     margin-top: 0;
   }
 }

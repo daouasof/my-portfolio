@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.bd8938aa.css",
-    "main.js": "/my-portfolio/static/js/main.710fd3e0.js",
+    "main.css": "/my-portfolio/static/css/main.142e2074.css",
+    "main.js": "/my-portfolio/static/js/main.16e79051.js",
     "static/js/787.128fc6e9.chunk.js": "/my-portfolio/static/js/787.128fc6e9.chunk.js",
     "static/media/La-maison-jungle.png": "/my-portfolio/static/media/La-maison-jungle.97e33370e5959031b13d.png",
     "static/media/Pawch.png": "/my-portfolio/static/media/Pawch.d4ffe9f778fca8035929.png",
@@ -12,12 +12,12 @@
     "static/media/Rails.svg": "/my-portfolio/static/media/Rails.76de2e60941ae6d17e0d2636a61e0a32.svg",
     "static/media/React.svg": "/my-portfolio/static/media/React.5f8c53c9ec017a35fb756b3b8821376b.svg",
     "index.html": "/my-portfolio/index.html",
-    "main.bd8938aa.css.map": "/my-portfolio/static/css/main.bd8938aa.css.map",
-    "main.710fd3e0.js.map": "/my-portfolio/static/js/main.710fd3e0.js.map",
+    "main.142e2074.css.map": "/my-portfolio/static/css/main.142e2074.css.map",
+    "main.16e79051.js.map": "/my-portfolio/static/js/main.16e79051.js.map",
     "787.128fc6e9.chunk.js.map": "/my-portfolio/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bd8938aa.css",
-    "static/js/main.710fd3e0.js"
+    "static/css/main.142e2074.css",
+    "static/js/main.16e79051.js"
   ]
 }

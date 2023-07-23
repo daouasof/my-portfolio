@@ -11,16 +11,25 @@ ul {
   margin-top: 30px;
   display: flex;
   flex-direction: column;
+  width: fit-content;
 }
 @media only screen and (max-width: 1024px) {
+  .nav-container {
+    position: fixed;
+    top: 0;
+    right: 20px;
+    background-color: var(--strong2);
+    width: 90%;
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom: 10px;
+  }
+
   .nav {
     flex-direction: row;
     gap: 10px;
     margin-bottom: 0px;
     margin-top: 15px;
-    position: fixed;
-    top: 0;
-    right: 20px;
   }
 }
 

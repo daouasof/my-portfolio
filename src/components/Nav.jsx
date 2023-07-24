@@ -18,19 +18,28 @@ function Nav() {
             About
           </Link>
         </li>
-        {options.map((option, index) => (
-          <li key={`${option}${index}`}>
-            <Link
-              to={`${option}`}
-              spy={true}
-              smooth={true}
-              offset={-100}
-              duration={500}
-            >
-              {option}
-            </Link>
-          </li>
-        ))}
+        <li key={`projects01`}>
+          <Link
+            to="Projects"
+            spy={true}
+            smooth={true}
+            offset={-75}
+            duration={500}
+          >
+            Projects
+          </Link>
+        </li>
+        <li key={`contact02`}>
+          <Link
+            to="Contact"
+            spy={true}
+            smooth={true}
+            offset={-200}
+            duration={500}
+          >
+            Contact
+          </Link>
+        </li>
       </ul>
     </div>
   );

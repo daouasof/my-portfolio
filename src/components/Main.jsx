@@ -6,6 +6,7 @@ import Pawch from '../assets/images/Pawch.png';
 import Rails from '../assets/images/Rails.svg';
 import React from '../assets/images/React.svg';
 import JS from '../assets/images/JS.svg';
+import Bootstrap from '../assets/images/Bootstrap.svg';
 import PostgreSQL from '../assets/images/PostgreSQL.svg';
 
 function Main() {
@@ -49,6 +50,7 @@ function Main() {
           stack={[
             { stackname: 'Rails', source: Rails },
             { stackname: 'postgreSQL', source: PostgreSQL },
+            { stackname: 'Bootstrap', source: Bootstrap },
           ]}
         />
       </div>

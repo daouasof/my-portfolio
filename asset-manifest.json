@@ -1,11 +1,12 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.6acb1351.css",
+    "main.css": "/my-portfolio/static/css/main.731b1d51.css",
     "main.js": "/my-portfolio/static/js/main.5056ee68.js",
     "static/js/787.128fc6e9.chunk.js": "/my-portfolio/static/js/787.128fc6e9.chunk.js",
     "static/media/La-maison-jungle.png": "/my-portfolio/static/media/La-maison-jungle.97e33370e5959031b13d.png",
     "static/media/Pawch.png": "/my-portfolio/static/media/Pawch.d4ffe9f778fca8035929.png",
     "static/media/Frontrow.png": "/my-portfolio/static/media/Frontrow.6e6fd38e2762caf1ad33.png",
+    "static/media/Boska-Medium.woff": "/my-portfolio/static/media/Boska-Medium.c67511c85353ef3d702a.woff",
     "static/media/PilcrowRounded-Semibold.woff": "/my-portfolio/static/media/PilcrowRounded-Semibold.8c24309d6d4f648594a4.woff",
     "static/media/PostgreSQL.svg": "/my-portfolio/static/media/PostgreSQL.753b574d0d0f7e6b596ccc09768d0d46.svg",
     "static/media/Hind-Regular.woff": "/my-portfolio/static/media/Hind-Regular.5fc6fb8e86b08d6d6d16.woff",
@@ -14,12 +15,12 @@
     "static/media/React.svg": "/my-portfolio/static/media/React.5f8c53c9ec017a35fb756b3b8821376b.svg",
     "static/media/JS.svg": "/my-portfolio/static/media/JS.7dacf94dc128828c118577fde6c1bdf9.svg",
     "index.html": "/my-portfolio/index.html",
-    "main.6acb1351.css.map": "/my-portfolio/static/css/main.6acb1351.css.map",
+    "main.731b1d51.css.map": "/my-portfolio/static/css/main.731b1d51.css.map",
     "main.5056ee68.js.map": "/my-portfolio/static/js/main.5056ee68.js.map",
     "787.128fc6e9.chunk.js.map": "/my-portfolio/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6acb1351.css",
+    "static/css/main.731b1d51.css",
     "static/js/main.5056ee68.js"
   ]
 }

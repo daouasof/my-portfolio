@@ -2,7 +2,6 @@ import '../styles/Nav.css';
 import { Link } from 'react-scroll';
 
 function Nav() {
-  const options = ['Projects', 'Contact'];
   return (
     <div className="nav-container">
       <ul className="nav">

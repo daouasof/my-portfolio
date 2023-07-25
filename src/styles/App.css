@@ -13,6 +13,14 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'Boska-Medium';
+  src: url('./fonts/Boska-Medium.woff') format('woff');
+  font-weight: 500;
+  font-display: swap;
+  font-style: normal;
+}
+
 .App {
   margin: 100px;
   display: flex;
@@ -41,5 +49,5 @@ body {
 h1,
 h2 {
   color: var(--light1);
-  font-family: 'PilcrowRounded-Semibold';
+  font-family: 'Boska-Medium';
 }

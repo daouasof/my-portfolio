@@ -3,11 +3,13 @@ import Project from './Project';
 import Frontrow from '../assets/images/Frontrow.png';
 import Jungle from '../assets/images/La-maison-jungle.png';
 import Pawch from '../assets/images/Pawch.png';
+import Reconnect from '../assets/images/Reconnect.png';
 import Rails from '../assets/images/Rails.svg';
 import React from '../assets/images/React.svg';
 import JS from '../assets/images/JS.svg';
 import Bootstrap from '../assets/images/Bootstrap.svg';
 import PostgreSQL from '../assets/images/PostgreSQL.svg';
+import Figma from '../assets/images/Figma.svg';
 
 function Main() {
   return (
@@ -52,6 +54,13 @@ function Main() {
             { stackname: 'postgreSQL', source: PostgreSQL },
             { stackname: 'Bootstrap', source: Bootstrap },
           ]}
+        />
+        <Project
+          name="Reconnect"
+          description="Reconnect is a non-profit association of which mission is to facilitate the progression of social integration while simplifying the support of professionals. While being a PO, I designed their website and the softwares they provide."
+          link="https://reconnect.fr/reconnect-la-solution-pro/"
+          cover={Reconnect}
+          stack={[{ stackname: 'Figma', source: Figma }]}
         />
       </div>
       <div className="section" id="Contact">

@@ -1,12 +1,13 @@
 {
   "files": {
     "main.css": "/my-portfolio/static/css/main.0c7c197a.css",
-    "main.js": "/my-portfolio/static/js/main.30cd390c.js",
+    "main.js": "/my-portfolio/static/js/main.e35fd25b.js",
     "static/js/787.128fc6e9.chunk.js": "/my-portfolio/static/js/787.128fc6e9.chunk.js",
     "static/media/La-maison-jungle.png": "/my-portfolio/static/media/La-maison-jungle.97e33370e5959031b13d.png",
     "static/media/Reconnect.png": "/my-portfolio/static/media/Reconnect.c11ae96166e6bf4fbe3c.png",
     "static/media/Pawch.png": "/my-portfolio/static/media/Pawch.d4ffe9f778fca8035929.png",
     "static/media/Frontrow.png": "/my-portfolio/static/media/Frontrow.6e6fd38e2762caf1ad33.png",
+    "static/media/Tetris.png": "/my-portfolio/static/media/Tetris.eaab73cc6bd2bfe8ef29.png",
     "static/media/Boska-Medium.woff": "/my-portfolio/static/media/Boska-Medium.c67511c85353ef3d702a.woff",
     "static/media/PilcrowRounded-Semibold.woff": "/my-portfolio/static/media/PilcrowRounded-Semibold.8c24309d6d4f648594a4.woff",
     "static/media/PostgreSQL.svg": "/my-portfolio/static/media/PostgreSQL.753b574d0d0f7e6b596ccc09768d0d46.svg",
@@ -18,11 +19,11 @@
     "static/media/JS.svg": "/my-portfolio/static/media/JS.7dacf94dc128828c118577fde6c1bdf9.svg",
     "index.html": "/my-portfolio/index.html",
     "main.0c7c197a.css.map": "/my-portfolio/static/css/main.0c7c197a.css.map",
-    "main.30cd390c.js.map": "/my-portfolio/static/js/main.30cd390c.js.map",
+    "main.e35fd25b.js.map": "/my-portfolio/static/js/main.e35fd25b.js.map",
     "787.128fc6e9.chunk.js.map": "/my-portfolio/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0c7c197a.css",
-    "static/js/main.30cd390c.js"
+    "static/js/main.e35fd25b.js"
   ]
 }
